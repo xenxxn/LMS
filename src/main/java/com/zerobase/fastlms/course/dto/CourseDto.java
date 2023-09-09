@@ -16,7 +16,6 @@ import java.util.List;
 @Builder
 @Data
 public class CourseDto {
-    
     Long id;
     long categoryId;
     String imagePath;
@@ -29,10 +28,8 @@ public class CourseDto {
     LocalDate saleEndDt;
     LocalDateTime regDt;//등록일(추가날짜)
     LocalDateTime udtDt;//수정일(수정날짜)
-    
     String filename;
     String urlFilename;
-    
     //추가컬럼
     long totalCount;
     long seq;

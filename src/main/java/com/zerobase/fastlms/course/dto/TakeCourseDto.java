@@ -25,16 +25,12 @@ public class TakeCourseDto {
     String status;//상태(수강신청, 결재완료, 수강취소)
     
     LocalDateTime regDt;//신청일
-    
-    
-    
+
     // JOIN
     String userName;
     String phone;
     String subject;
-    
-    
-    
+
     //추가컬럼
     long totalCount;
     long seq;
